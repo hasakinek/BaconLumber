@@ -34,6 +34,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "Script hop"})
      local Tab3o = MakeTab({Name = "Script fram fruits"})
      local Tab4o = MakeTab({Name = "Script fix lag"})
+     local Tab5o = MakeTab({Name = "Script cần key"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -222,5 +223,19 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
      Name = "AKGAMING Hub",
     Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/AKGAMING-FIXLAG"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Rubu v4 Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RuBuV4.lua"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "cokka Hub",
+    Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
   end
   })
