@@ -235,7 +235,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/he
   
   AddButton(Tab5o, {
      Name = "cokka Hub",
-    Callback = function()
+    Callback = function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "SPEED X Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
   end
   })
